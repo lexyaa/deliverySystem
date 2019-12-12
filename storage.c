@@ -90,12 +90,18 @@ int str_backupSystem(char* filepath) {
 //char* filepath : filepath and name to read config parameters (row, column, master password, past contexts of the delivery system
 //return : 0 - successfully created, -1 - failed to create the system
 int str_createSystem(char* filepath) {
+
+	building=;
+	room=;
+	cnt=;
+	passwd[PASSWD_LEN+1]=;
 	
+	context=;
 }
 
 //free the memory of the deliverySystem 
 void str_freeSystem(void) {
-	free()
+	free();
 }
 
 
